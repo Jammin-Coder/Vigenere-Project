@@ -153,7 +153,7 @@ def print_result(result_array):
     result_string = ""
     for i in range(0, result_len, 1):
         result_string = result_string + result_array[i]
-    print(result_string)
+    print("[+] Encoded to >>> " + result_string)
 
 
 (code_array, key_array, code_len) = get_input()  # Gets the code and the key from user
