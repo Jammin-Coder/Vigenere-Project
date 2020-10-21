@@ -12,17 +12,16 @@ in a Python 3 interpreter.
 The encoder encodes plain text with a given key.
 The decoder decoded ciphered text with a given key.
 
-I.E
-
 NOTE: Does not support spaces or capital letters
 
-Encoder:
+I.E
+
+Encoder
 [+] Enter text here >>> thisistheplaintext
 [+] Enter key >>> key
 [+] Encoded to dlgcmqdlczpysrrobr
   
-Decoder:
+Decoder
 [+] Enter code here >>> dlgcmqdlczpysrrobr
 [+] Enter key >>> key
-[+] Decoded to "thisistheplaintex"
-  
+[+] Decoded to thisistheplaintex
