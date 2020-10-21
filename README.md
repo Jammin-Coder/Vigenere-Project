@@ -14,13 +14,15 @@ The decoder decoded ciphered text with a given key.
 
 I.E
 
+NOTE: Does not support spaces or capital letters
+
 Encoder:
-  [+] Enter text here >>> thisistheplaintext
-  [+] Enter key >>> key
-  [+] Encoded to dlgcmqdlczpysrrobr
+[+] Enter text here >>> thisistheplaintext
+[+] Enter key >>> key
+[+] Encoded to dlgcmqdlczpysrrobr
   
 Decoder:
-  [+] Enter code here >>> dlgcmqdlczpysrrobr
-  [+] Enter key >>> key
-  [+] Decoded to "thisistheplaintex"
+[+] Enter code here >>> dlgcmqdlczpysrrobr
+[+] Enter key >>> key
+[+] Decoded to "thisistheplaintex"
   
