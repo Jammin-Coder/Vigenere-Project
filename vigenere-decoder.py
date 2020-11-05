@@ -98,13 +98,11 @@ def numerate(code):
 
 # Generates a repeating key for the length of the code, then returns it as an array
 def generate_key(key, code_len):
-    try_num = 0
     key_string = key
     for i in range(0, code_len, 1):
         key_string_len = len(key_string)
         if key_string_len < code_len:
             key_string.append(key[i])
-            try_num += 1
     return key_string
 
 
