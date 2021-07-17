@@ -7,10 +7,10 @@ if MODE == "e":
   text = input("Enter text >> ")
   key = input("Enter key >> ")
   output = Encoder(text, key).run()
-  print(output)
+  print(f"Encoded to -->{output}<--")
 
 elif MODE == "d":
   code = input("Enter code >> ")
   key = input("Enter key >> ")
   output = Decoder(code, key).run()
-  print(output)
+  print(f"Decoded to -->{output}<--")
