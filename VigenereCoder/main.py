@@ -12,5 +12,5 @@ if MODE == "e":
 elif MODE == "d":
   code = input("Enter code >> ")
   key = input("Enter key >> ")
-  output = Dcoder(code, key).run()
+  output = Decoder(code, key).run()
   print(output)
