@@ -1,11 +1,16 @@
 from VigenereCoder.Coder import *
 
 
-text = "this is a test"
-key = "apples and oranges"
+MODE = input("Encode or decode? [e/d]").lower()
 
-encoded_text = Encoder(text, key).run()
-decoded_text = Decoder(encoded_text, key).run()
+if MODE == "e":
+  text = input("Enter text >> ")
+  key = input("Enter key >> ")
+  output = Encoder(text, key).run()
+  print(output)
 
-print(encoded_text)
-print(decoded_text)
+elif MODE == "d":
+  code = input("Enter code >> ")
+  key = input("Enter key >> ")
+  output = Dcoder(code, key).run()
+  print(output)
