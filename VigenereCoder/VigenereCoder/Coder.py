@@ -5,13 +5,13 @@ def read(path):
 
 class VigenereCoder:
     def __init__(self, input_str, key):
+        self.input_str = input_str
+		self.key = key
+        self.key_len = len(key)
         self.charset_file = "charset.txt"
         self.charset = list(read(self.charset_file))
         self.max_index = len(self.charset) - 1
         self.key_char_index = 0
-        self.key = key
-        self.key_len = len(key)
-        self.input_str = input_str
         self.output_str = ""
 
     def update_key_char(self):
